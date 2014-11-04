@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/faiq/push-server-limit",
   "dependencies": {
-    "redback": "^0.4.0"
+    "redback": "^0.4.0",
+    "redis": "^0.12.1"
   }
 }
