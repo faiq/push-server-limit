@@ -4,7 +4,7 @@
   "description": "express middleware that uses redis to do rate limiting (test)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec test"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "dependencies": {
     "redback": "^0.4.0",
     "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
   }
 }
