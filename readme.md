@@ -55,7 +55,7 @@
 
 **window** - The amount of time you want to enforce your rate limit on for a particular user. **interval** defaults to 3600 seconds (1 hour). 
 
-**total_limit** - the max number of calls sent to your service (including all routes). Defaults to 1000
+**total_limit** - the max number of calls sent to your service (including all routes).
  
 **limit_objcet** - an object that configures each route to its individual limit. This option should be used if you're using the middleware before all your routes. If you use it in conjunction with the `total_limit` field, the sum of all the routes limits must be less than or equal to `total_limit`
 
