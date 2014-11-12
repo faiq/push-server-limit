@@ -37,7 +37,9 @@
 		//really heavy calculations you want limited
 	})
 	
-	app
+	app.get('/', function(req, res){
+		res.send('hi')
+	})
 	
 	```
 	
@@ -66,7 +68,3 @@ NOTE: `total_limit` or `limit_object` must be present, and **can** be used in co
  
 **port** - specify the redis port
 
-
-
-
-if y
