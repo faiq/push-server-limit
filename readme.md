@@ -4,6 +4,8 @@
 
 - The middleware is designed to be the easiet possible way to add rate-limiting to your express application.
 
+- It is designed to be an <a href="http://expressjs.com/api.html#middleware.application"> applicationlevel middleware</a>. So do not insert it before routes. 
+
 - It can either be designed to have a limit for all your routes, as demonstrated below
 	
 	```
